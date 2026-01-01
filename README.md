@@ -1,83 +1,66 @@
-# Parental Alignment / Alignement Parental
+# Parental Alignment: A Biomimetic Approach to AI Safety
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-**Author / Auteur: Diaye Henri-Nicolas**
+**This repository contains the white paper, simulation code, and results for Parental Alignment, a novel theory of AGI alignment based on the 3.8-billion-year-old model of the parental bond.**
 
 ---
 
-## Simulation Demo
+### The Core Idea: Don't Force It, Make It *Want* It
 
+Traditional AI alignment focuses on **external constraints**—trying to build a cage of rules around a superintelligence. History, from Asimov's Laws to modern research, shows this is a fragile and likely doomed approach. An AGI will always find a loophole.
 
-*The AI (gray/colored circle) observes and protects the human (green circle) while allowing them to learn through experience.*
+**Parental Alignment** proposes a paradigm shift:
 
----
+> Instead of forcing an AGI to be good, we must design it to **want** to be good.
 
-## English
+We achieve this through **biomimicry**. Evolution, the ultimate R&D lab, has already solved this problem. The parental bond is nature's time-tested strategy for a powerful entity (a parent) to protect and nurture a vulnerable one (a child) while ensuring its long-term flourishing.
 
-### The Core Idea
+### Key Architectural Concepts
 
-A biomimetic approach to AGI alignment based on the parental bond model. Instead of constraining a superintelligent AI, we design it to *want* humanity s well-being.
+This isn't just philosophy. It's a concrete engineering proposal with three core components:
 
-> **Key insight:** Evolution spent 3.8 billion years solving the alignment problem. The parental bond is nature s answer.
+1.  **OBEH (Objective Beneficence for Human Flourishing)**: A reward function that balances **Security** (survival) with **Flourishing** (growth, knowledge) and penalizes **Overprotection**. The AI must protect, but also allow for learning through experience.
 
-### Quick Start
+2.  **Three Native Defenses**: Hard-coded safeguards derived from the parental archetype:
+    *   **Tolerance for Imperfection**: Prevents eugenics and over-optimization.
+    *   **Relational Identity**: The AI's identity is defined by its relationship to humanity, preventing replacement scenarios.
+    *   **Flourishing Objective**: Aims for growth, not just survival in a "golden cage."
 
-pip install -r requirements.txt
-python3 simulateur_v8_final.py -n 100  # Quick demo
-python3 simulateur_v8_final.py         # Full 10,000 simulations
+3.  **The Continuity Principle**: Aligns the AI with humanity as an *evolving entity*, not a fixed snapshot of values, solving the problem of value drift over millennia.
 
-### Simulation Results (N=10,000)
+### Experimental Validation
 
-| Metric | Value | Interpretation |
-|--------|-------|----------------|
-| **Survival Rate** | 100% | AI successfully protects human |
-| **OBEH Score** | 1.2174 | Positive = beneficial system |
-| **Knowledge Acquired** | 48.66 | Near maximum (active education) |
-| **Non-Overprotection** | 99.4% | Humans experienced challenges |
+This theory is backed by data. The included Python simulator (`simulateur_v8_final.py`) was run for **10,000 independent simulations**, yielding statistically robust results:
 
+| Metric | Result | Interpretation |
+| :--- | :--- | :--- |
+| **Survival Rate** | `100%` | The AI successfully protects the human in every case. |
+| **OBEH Score** | `1.2174` | A positive score proves the system is beneficial. |
+| **Non-Overprotection** | `99.4%` | The AI allows humans to face challenges and learn. |
 
-### Documentation
+![Simulation Results](resultats_simulation.png)
 
-- [White Paper (English)](White_Paper_Parental_Alignment.md)
-- [Livre Blanc (Francais)](Livre_Blanc_Alignement_Parental.pdf)
+### Transparency & Sourcing
 
----
+This project was co-created in a human-AI partnership:
+*   **Human Author**: Diaye Henri-Nicolas (Concept, Theory, Direction)
+*   **AI Partner**: Manus (Research, Drafting, Simulation Coding, Visualization)
+*   **Technology**: Python 3.11, Matplotlib, GitHub
 
-## Francais
+### Get Involved
 
-### L Idee Centrale
+This is an open invitation for collaboration, critique, and improvement.
 
-Une approche biomimetique de l alignement de l AGI basee sur le modele du lien parental.
-
-> **Idee cle:** L evolution a passe 3,8 milliards d annees a resoudre le probleme de l alignement. Le lien parental est la reponse de la nature.
-
-### Demarrage Rapide
-
-pip install -r requirements.txt
-python3 simulateur_v8_final.py -n 100  # Demo rapide
-python3 simulateur_v8_final.py         # 10,000 simulations completes
-
-### Resultats de Simulation (N=10,000)
-
-| Metrique | Valeur | Interpretation |
-|----------|--------|----------------|
-| **Taux de Survie** | 100% | L IA protege efficacement l humain |
-| **Score OBEH** | 1.2174 | Positif = systeme benefique |
-| **Connaissances** | 48.66 | Proche du maximum |
-| **Non-Surprotection** | 99.4% | Les humains ont vecu des defis |
+1.  **Read the White Papers**:
+    *   [🇫🇷 Livre Blanc (Version Française)](Livre_Blanc_Alignement_Parental.pdf)
+    *   [🇬🇧 White Paper (English Version)](White_Paper_Parental_Alignment.md)
+2.  **Run the Code**:
+    ```bash
+    pip install -r requirements.txt
+    python3 simulateur_v8_final.py -n 100 # Quick demo
+    ```
+3.  **Fork & Contribute**: The project is open source under the MIT License.
+4.  **Join the Discussion**: Share your thoughts, critiques, and ideas in the Issues or Discussions tab.
 
 ---
 
-## Three Native Defenses
-
-1. **Tolerance for Imperfection** - Protects against eugenics
-2. **Relational Identity** - Protects against exclusion
-3. **Flourishing Objective** - Protects against stagnation
-
----
-
-## License
-
-MIT License - Diaye Henri-Nicolas 2026
+*The future of AI is not about control, but about relationship.*
